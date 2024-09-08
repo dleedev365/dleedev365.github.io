@@ -95,6 +95,10 @@ body {
   border-bottom-color: #fff;
 }
 
+.company {
+  color: rgb(255, 132, 132);
+}
+
 @media (min-width: 768px) {
   .masthead-brand {
     float: left;
