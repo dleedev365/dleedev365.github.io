@@ -1,361 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Daniel's Homepage</title>
     <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-    />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <style>
-      /* Add a gray background color and some padding to the footer */
-      footer {
-        background-color: #f2f2f2;
-        padding: 25px;
-      }
-    </style>
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="A Personal Website" />
+    <meta name="author" content="Daniel Lee" />
+
+    <title>Daniel's HomePage</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./bootstrap.min.css" rel="stylesheet" />
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="./ie10-viewport-bug-workaround.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="./cover.css" rel="stylesheet" />
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9
+      ]><script src="../../assets/js/ie8-responsive-file-warning.js"></script
+    ><![endif]-->
+    <script src="./ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
+
   <body>
-    <div class="jumbotron">
-      <div class="container text-center">
-        <h1>Portfolio</h1>
-        <p>
-          "Where the needs of the world and your talents cross, there lies your
-          vocation." -Aristotle
-        </p>
-      </div>
-    </div>
-
-    <div class="container-fluid bg-3 text-center">
-      <h3>Some of My Work</h3>
-      <br />
-
-      <div class="container-fluid bg-3 text-center">
-        <div class="row">
-          <div class="col-sm-3">
-            <br />
-            <p>
-              AI Transaction Fraud Management
-              <a href="https://view.ceros.com/mastercard-us/acquirer-fraud/p/1"
-                >(link)</a
-              >
-            </p>
-
-            <img
-              src="./assets/mastercard.png"
-              class="img-responsive"
-              style="
-                border: 5px solid #fefbfb;
-                width: 100%;
-                min-height: 250px;
-
-                object-fit: contain;
-              "
-              alt="Image"
-            />
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">DL</h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li class="active"><a href="#">Home</a></li>
+                  <li><a href="./portfolio.html">Portfolio</a></li>
+                </ul>
+              </nav>
+            </div>
           </div>
 
-          <div class="col-sm-3">
-            <br />
-            <p>
-              Seizure Action Plan
-              <a href="https://www.digitallab.org/portfolio/seizure-action-plan"
-                >(link)</a
-              >
+          <div class="inner cover">
+            <h1 class="cover-heading">Records over Memories</h1>
+            <p class="lead">
+              Hi! My name is Daniel, a Software Engineer from Vancouver, BC
+              Canada 🍁 I'm passionate about consumer-facing application
+              development. <br />I find joy in helping others -
+              <a href="https://www.16personalities.com/enfj-personality"
+                ><u>ENFJ</u></a
+              >.
             </p>
-
-            <img
-              src="./assets/seizure-action-plan.png"
-              class="img-responsive"
-              style="
-                border: 5px solid #fefbfb;
-                width: 100%;
-                min-height: 250px;
-
-                object-fit: contain;
-              "
-              alt="Image"
-            />
-          </div>
-
-          <div class="col-sm-3">
-            <br />
-            <p>
-              LivePlanBe&#43;
-              <a href="https://www.digitallab.org/portfolio/liveplanbe"
-                >(link)</a
-              >
-            </p>
-
-            <img
-              src="./assets/liveplanbe.png"
-              class="img-responsive"
-              style="
-                border: 5px solid #fefbfb;
-                width: 100%;
-                min-height: 250px;
-
-                object-fit: contain;
-              "
-              alt="Image"
-            />
-          </div>
-
-          <div class="col-sm-3">
-            <br />
-            <p>
-              Mini Pokedex <a href="https://pokedexmini.netlify.app/">(link)</a>
-            </p>
-            <img
-              src="./assets/pokedex.png"
-              class="img-responsive"
-              style="
-                border: 5px solid #fefbfb;
-                width: 100%;
-                min-height: 250px;
-
-                object-fit: contain;
-              "
-              alt="Image"
-            />
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-sm-3">
-            <br />
-            <p>
-              AI Tic-Tac-Toe
+            <p class="lead">
               <a
-                href="https://github.com/dleedev365/Computer-Science-Projects/tree/main/AI-Tic-Tac-Toe(Pure-Monte-Carlo-Tree-Search)"
-                >(link)</a
+                href="https://www.linkedin.com/in/dleedev365"
+                class="btn btn-lg btn-default"
+                >Learn more</a
               >
             </p>
-            <img
-              src="./assets/ai-tic-tac-toe.gif"
-              class="img-responsive"
-              style="
-                border: 5px solid #fefbfb;
-                width: 100%;
-                min-height: 250px;
-
-                object-fit: contain;
-              "
-              alt="Image"
-            />
           </div>
 
-          <div class="col-sm-3">
-            <br />
-            <p>
-              Rental Listing Inquiries (Data Mining)
-              <a
-                href="https://github.com/dleedev365/Computer-Science-Projects/blob/main/Data%20Mining-Rental-Listing-Inquries(Two-Sigma-Connect)/Project%20Final%20Report.pdf"
-                >(link)</a
-              >
-            </p>
-
-            <img
-              src="./assets/data-mining-prj.png"
-              class="img-responsive"
-              style="
-                border: 5px solid #fefbfb;
-                width: 100%;
-                min-height: 250px;
-
-                object-fit: contain;
-              "
-              alt="Image"
-            />
-          </div>
-
-          <div class="col-sm-3">
-            <br />
-            <p>
-              Image Processing
-              <a
-                href="https://github.com/dleedev365/Computer-Science-Projects/tree/main/GUI-Image-Processor"
-                >(link)</a
-              >
-            </p>
-            <img
-              src="./assets/image-processing.png"
-              class="img-responsive"
-              style="
-                border: 5px solid #fefbfb;
-                width: 100%;
-                min-height: 250px;
-
-                object-fit: contain;
-              "
-              alt="Image"
-            />
-          </div>
-
-          <div class="col-sm-3">
-            <br />
-            <p>
-              Audio Waveform Generator
-              <a
-                href="https://github.com/dleedev365/Computer-Science-Projects/tree/main/GUI-Audio-Waveform-Generator"
-                >(link)</a
-              >
-            </p>
-
-            <img
-              src="./assets/audio-wave-generator.png"
-              class="img-responsive"
-              style="
-                border: 5px solid #fefbfb;
-                width: 100%;
-                min-height: 250px;
-
-                object-fit: contain;
-              "
-              alt="Image"
-            />
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-sm-3">
-            <br />
-            <p>
-              Airline Database Management Tool
-              <a
-                href="https://github.com/dleedev365/Computer-Science-Projects/tree/main/GUI-Airline-Database-System"
-                >(link)</a
-              >
-            </p>
-
-            <img
-              src="./assets/airline-database.png"
-              class="img-responsive"
-              style="
-                border: 5px solid #fefbfb;
-                width: 100%;
-                min-height: 250px;
-
-                object-fit: contain;
-              "
-              alt="Image"
-            />
-          </div>
-
-          <div class="col-sm-3">
-            <br />
-            <p>
-              Number Guessing Baseball Game
-              <a
-                href="https://github.com/dleedev365/Personal-Projects/tree/main/console-number-baseball-game(mastermind%20remixed)"
-                >(link)</a
-              >
-            </p>
-
-            <img
-              src="./assets/console-game.png"
-              class="img-responsive"
-              style="
-                border: 5px solid #fefbfb;
-                width: 100%;
-                min-height: 250px;
-
-                object-fit: contain;
-              "
-              alt="Image"
-            />
-          </div>
-
-          <div class="col-sm-3">
-            <br />
-            <p>
-              Grade Scaling System
-              <a
-                href="https://github.com/dleedev365/Personal-Projects/tree/main/web-grade-scaling-system"
-                >(link)</a
-              >
-            </p>
-
-            <img
-              src="./assets/web-grade-scaling-system.gif"
-              class="img-responsive"
-              style="
-                border: 5px solid #fefbfb;
-                width: 100%;
-                min-height: 250px;
-
-                object-fit: contain;
-              "
-              alt="Image"
-            />
-          </div>
-
-          <div class="col-sm-3">
-            <br />
-            <p>
-              ICBC Knowledge Test Booking Automation
-              <a
-                href="https://github.com/dleedev365/Computer-Science-Projects/tree/main/WebScraping-2020-CSSS-Fall-Hackathon"
-                >(link)</a
-              >
-            </p>
-
-            <img
-              src="./assets/web-automation.png"
-              class="img-responsive"
-              style="
-                border: 5px solid #fefbfb;
-                width: 100%;
-                min-height: 250px;
-
-                object-fit: contain;
-              "
-              alt="Image"
-            />
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-sm-3">
-            <br />
-            <p>
-              Producer-Consumer Problem
-              <a
-                href="https://github.com/dleedev365/Computer-Science-Projects/tree/main/Multi-threading-Program(Bounded-Buffer-Problem)"
-                >(link)</a
-              >
-            </p>
-
-            <img
-              src="./assets/pcp.png"
-              class="img-responsive"
-              style="
-                border: 5px solid #fefbfb;
-                width: 100%;
-                min-height: 250px;
-
-                object-fit: contain;
-              "
-              alt="Image"
-            />
+          <div class="mastfoot">
+            <div class="inner">
+              <p>
+                Built with
+                <a href="https://getbootstrap.com/">Bootstrap</a>, by
+                <a href="https://www.github.com/dleedev365">@dleedev365</a>.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <br /><br />
-
-    <footer class="container-fluid text-center">
-      <address>
-        you can reach me via <a href="mailto: dleedev365@gmail.com">email</a>,
-        <a href="https://www.linkedin.com/in/dleedev365">linkedin</a>,
-        <a href="https://www.github.com/dleedev365">github</a>,
-        <a href="https://www.youtube.com/@lifeofadev">youtube</a>
-      </address>
-      <p>Built by Daniel Lee &copy; 2024</p>
-    </footer>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.min.js"
+      integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      window.jQuery ||
+        document.write('<script src="./jquery.min.js"><\/script>');
+    </script>
+    <script src="./bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
